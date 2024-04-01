@@ -4,7 +4,7 @@ import streamlit as st
 from streamlit_chat import message
 from rag import PDFAssistant
 
-st.set_page_config(page_title="ChatPDF")
+st.set_page_config(page_title="PDFAssistant")
 
 def display_messages():
     st.subheader("Chat")
