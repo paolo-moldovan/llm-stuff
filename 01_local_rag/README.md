@@ -43,8 +43,12 @@ app.py: The Streamlit application interface, handling document uploads, user que
 rag.py: Contains the PDFAssistant class, which manages document ingestion, query processing, and interfacing with the ChatOllama model and Chroma vector storage.
 
 ## Dependencies
-Streamlit: For creating the web application interface.
-langchain_community: Provides access to language models, document loaders, and utilities for processing and answering questions.
+- streamlit
+- langchain
+- pypdf
+- streamlit-chat
+- chromadb
+- fastembed
 
 ## Limitations
 Currently supports PDF documents only.
