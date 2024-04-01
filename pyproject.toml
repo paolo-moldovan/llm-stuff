@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "llm-stuff"
+version = "0.1.0"
+description = ""
+authors = ["Paolo Moldovan <pmoldo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.32.2"
+langchain = "^0.1.13"
+langchain-openai = "^0.1.1"
+sentence-transformers = "^2.6.1"
+datasets = "^2.18.0"
+doctr = "^1.9.0"
+pypdf = "^4.1.0"
+ctransformers = "^0.2.27"
+qdrant-client = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
